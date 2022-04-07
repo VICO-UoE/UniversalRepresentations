@@ -18,10 +18,10 @@ This is the implementation of [Universal Representations: A Unified Look at Mult
 If you use this code, please cite our papers:
 ```
 @article{li2022Universal,
-	author	  = {Li, Wei-Hong and Liu, Xialei and Bilen, Hakan},
-	title 	  = {Universal Representations: A Unified Look at Multiple Task and Domain Learning},
-	journal   = {arXiv preprint arXiv:2204.02744},
-	year      = {2022}
+    author    = {Li, Wei-Hong and Liu, Xialei and Bilen, Hakan},
+    title     = {Universal Representations: A Unified Look at Multiple Task and Domain Learning},
+    journal   = {arXiv preprint arXiv:2204.02744},
+    year      = {2022}
 }
 
 @inproceedings{li2021Universal,
