@@ -35,21 +35,21 @@ We propose a <b>Universal Representation Learning</b> framework in (a) that gene
 
 <p align="center">
   <img src="./figures/NYUv2.jpg" style="width:100%">
-  Figure 2. <b>Testing Results on NYU-v2.</b>
+  Table 1. <b>Testing Results on NYU-v2.</b>
 </p>
 
 ### Multi-domain Learning on Visual Decathlon with ResNet-26
 
 <p align="center">
   <img src="./figures/VisualDecathlon.jpg" style="width:100%">
-  Figure 3. <b>Testing Results on Visual Decathlon.</b>
+  Table 2. <b>Testing Results on Visual Decathlon.</b>
 </p>
 
 ### Cross-domain Few-shot Learning on Meta-Dataset with ResNet-18
 
 <p align="center">
   <img src="./figures/MetaDataset.jpg" style="width:100%">
-  Figure 4. <b>Testing Results on Meta-Dataset.</b>
+  Table 3. <b>Testing Results on Meta-Dataset.</b>
 </p>
 
 ## Usage
