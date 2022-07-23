@@ -101,6 +101,5 @@ If you use this code, please cite our papers:
     title     = {Knowledge distillation for multi-task learning},
     booktitle = {European Conference on Computer Vision (ECCV) Workshop},
     year      = {2020},
-    xcode     = {https://github.com/VICO-UoE/KD4MTL}
 }
 ```
