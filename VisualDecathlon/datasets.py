@@ -177,7 +177,7 @@ def prepare_data_loaders(dataset_names, data_dir, imdb_dir, shuffle_train=True, 
             labels_train = labels_train + labels_val
             imgnames_train = imgnames_train + imgnames_val
         if len(dataset_names) > 1:
-            if dataset_names[i] in ['imagenet12'] and config_task == 'bn':
+            if dataset_names[i] in ['imagenet12'] and config_task.mode == 'bn':
                 trainloader = torch.utils.data.DataLoader(ImageFolder(data_dir, transform_train, None, index, labels_train, imgnames_train), batch_size=512, shuffle=shuffle_train, num_workers=4, pin_memory=False)
             else:
                 trainloader = torch.utils.data.DataLoader(ImageFolder(data_dir, transform_train, None, index, labels_train, imgnames_train), batch_size=128, shuffle=shuffle_train, num_workers=4, pin_memory=False)
