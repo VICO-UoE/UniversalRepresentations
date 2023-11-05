@@ -195,7 +195,7 @@ for epoch in range(total_epoch):
         elif opt.weight == 'dwa':
             for i in range(len(tasks)):
                 w[i] = lambda_weight[i, index]
-        elif opt.weight == 'uncert':
+        if opt.weight == 'uncert':
             logsigma = Weights.weights
             scalars = [1, 2, 2]
             loss = sum(1 / (scalars[i] * torch.exp(logsigma[i])) * train_loss[i] + logsigma[i] / 2 for i in range(len(tasks)))
