@@ -8,7 +8,7 @@ We propose a <b>Universal Representation Learning</b> framework in (a) that gene
 
 > [**Universal Representations: A Unified Look at Multiple Task and Domain Learning**](https://arxiv.org/abs/2204.02744),            
 > Wei-Hong Li, Xialei Liu, Hakan Bilen,        
-> *Preprint 2022 ([arXiv 2204.02744](https://arxiv.org/abs/2204.02744))* 
+> *IJCV 2023 ([arXiv 2204.02744](https://arxiv.org/abs/2204.02744))* 
 >
 > [**Universal Representation Learning from Multiple Domains for Few-shot Classification**](https://arxiv.org/abs/2103.13841),            
 > Wei-Hong Li, Xialei Liu, Hakan Bilen,        
@@ -19,6 +19,7 @@ We propose a <b>Universal Representation Learning</b> framework in (a) that gene
 > *ECCV Workshop 2020 ([arXiv 2007.06889](https://arxiv.org/abs/2007.06889))*  
 
 ## Updates
+* July'23, Our paper [Universal Representations: A Unified Look at Multiple Task and Domain Learning](https://arxiv.org/abs/2204.02744) is accepted by IJCV!
 * July'22, Code for [Universal Representations: A Unified Look at Multiple Task and Domain Learning](https://arxiv.org/abs/2204.02744) is now available!
 * April'22, The preprint of our paper is now available! Code will be available soon! One can refer to [URL](https://github.com/VICO-UoE/URL) for the implementation on Cross-domain Few-shot Learning.
 
@@ -80,11 +81,13 @@ For any question, you can contact [Wei-Hong Li](https://weihonglee.github.io).
 ## Citation
 If you use this code, please cite our papers:
 ```
-@article{li2022Universal,
+@article{li2023Universal,
     author    = {Li, Wei-Hong and Liu, Xialei and Bilen, Hakan},
     title     = {Universal Representations: A Unified Look at Multiple Task and Domain Learning},
-    journal   = {arXiv preprint arXiv:2204.02744},
-    year      = {2022}
+    journal   = {International Journal of Computer Vision},
+    pages     = {1--25},
+    year      = {2023},
+    publisher = {Springer}
 }
 
 @inproceedings{li2021Universal,
